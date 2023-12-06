@@ -1,0 +1,23 @@
+
+.libro-container {
+    position: relative;
+    transition: .3s ease all;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.libro-container img{
+    width: 200px;
+    height: 300px;
+    transition: .3s ease all;
+}
+
+
+.libro-container p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 200px;
+}
+

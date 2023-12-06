@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TrabajoFinal-ReactJs/build/static/css/main.64ffbada.css",
+    "main.js": "/TrabajoFinal-ReactJs/build/static/js/main.e0fd2bd4.js",
+    "index.html": "/TrabajoFinal-ReactJs/build/index.html",
+    "main.64ffbada.css.map": "/TrabajoFinal-ReactJs/build/static/css/main.64ffbada.css.map",
+    "main.e0fd2bd4.js.map": "/TrabajoFinal-ReactJs/build/static/js/main.e0fd2bd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64ffbada.css",
+    "static/js/main.e0fd2bd4.js"
+  ]
+}

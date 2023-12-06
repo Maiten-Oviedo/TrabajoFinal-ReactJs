@@ -1,0 +1,97 @@
+.tasklist h1, .completados h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.tasklist ul, .completados ul{
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow-y: auto;
+    max-height: 100px;
+}
+
+.tasklist ul li, .completados ul li{
+    list-style: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    font-size: 18px;
+    width: 100%;
+}
+.tasklist ul li button{
+    background: transparent;
+    border: none;
+}
+
+.bi-trash{
+    cursor: pointer;
+    color: #af0000;
+    border: none;
+    font-size: 20px;
+}
+
+.bi-check-all{
+    cursor: pointer;
+    color: #01ff16;
+    border: none;
+    font-size: 25px;
+}
+
+input::placeholder {
+    color: #fff; 
+}
+
+.agregar-tarea{
+    display: flex;
+    padding-top: 10px;
+}
+
+.agregar-tarea form select{
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    padding: 4px;
+    max-width: 255px;
+}
+
+.agregar-tarea form select option{
+    background-color: #444;
+    padding: 200px;
+}
+.agregar-tarea input{
+    outline: none;
+    border:  1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.agregar-tarea button{
+    font-size: 15px;
+    background-color: #fff;
+    color: #444;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    transition: .3s ease all;
+}
+
+.agregar-tarea button:hover{
+    background-color: #444;
+    color: #fff;
+}
+
+.completados ul li{
+    text-decoration: line-through;
+}

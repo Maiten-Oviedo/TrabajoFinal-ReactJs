@@ -8,6 +8,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Lato, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+#root{
+  height: 100vh;
+  background: rgb(45,57,73);
+  background: linear-gradient(262deg, rgba(45,57,73,1) 0%, rgba(122,130,141,1) 100%);
 }

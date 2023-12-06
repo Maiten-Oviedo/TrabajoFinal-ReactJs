@@ -7,7 +7,6 @@ export function ContenedorLibros( {libros} ) {
     librosFavoritos = JSON.parse(librosFavoritos);
 
     const isInFavorite = (id)=>{ 
-        console.log(librosFavoritos)
         if(librosFavoritos.find(e=>e.id === id)){
             return false;
         } else {

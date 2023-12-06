@@ -1,11 +1,14 @@
 import { Libro } from './Libro';
+import { favoritos } from './Favoritos';
 
 export function ContenedorLibros( {libros} ) {
-    let favoritos = localStorage.getItem('libros-favoritos');
-    favoritos = JSON.parse(favoritos);
+    localStorage.setItem("libros-favoritos", JSON.stringify(favoritos));
+    let librosFavoritos = localStorage.getItem('libros-favoritos');
+    librosFavoritos = JSON.parse(librosFavoritos);
 
     const isInFavorite = (id)=>{ 
-        if(favoritos.find(e=>e.id === id)){
+        console.log(librosFavoritos)
+        if(librosFavoritos.find(e=>e.id === id)){
             return false;
         } else {
             return true;

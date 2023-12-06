@@ -2,7 +2,7 @@
   "name": "libros",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Maiten-Oviedo.github.io/TrabajoFinal-ReactJs/build",
+  "homepage": "https://maiten-oviedo.github.io/TrabajoFinal-ReactJs/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

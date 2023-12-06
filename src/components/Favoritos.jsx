@@ -1,1 +1,1 @@
-export let favoritos = []
+export let favoritos = [""]
